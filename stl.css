@@ -1,0 +1,27 @@
+body{
+	background: url(brillant.png)
+}
+#field{
+	background: rgba(245,245,220,0.0);
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-left: -200px; 
+	border: 2px solid #aaa;
+}
+
+.cell{
+	background: rgba(0,0,0,0.1);
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+	color: #999;
+	text-align: center;
+	user-select: none;
+	line-height: 1.9em; 
+}
